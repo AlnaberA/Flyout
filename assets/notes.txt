@@ -1,3 +1,5 @@
 Resources:
+chrome://extensions/
+https://github.com/instance01/Twitch-HLS-AdBlock
 https://developer.chrome.com/extensions/getstarted
 https://developer.chrome.com/extensions/match_patterns
