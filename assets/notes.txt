@@ -1,0 +1,3 @@
+Resources:
+https://developer.chrome.com/extensions/getstarted
+https://developer.chrome.com/extensions/match_patterns
