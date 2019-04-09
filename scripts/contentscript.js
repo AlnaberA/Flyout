@@ -1,9 +1,9 @@
 function inject(url) {
     console.log('Page loaded.');
-    // var s = document.createElement('script');
-    // s.src = chrome.extension.getURL(url);
-    // s.onload = function() { this.remove(); };
-    // (document.head || document.documentElement).appendChild(s);
+    var element = document.createElement('script');
+    console.log(element);
+    element.src = chrome.extension.getURL(url);
+    //s.onload = function() { this.remove(); };
+    (document.head || document.documentElement).appendChild(element);
 }
- inject('lib.js');
-// inject('injected.js');
+inject('scripts/injected.js');

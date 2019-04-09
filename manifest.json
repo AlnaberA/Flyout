@@ -11,5 +11,6 @@
         "matches": ["<all_urls>"],
         "js": ["scripts/contentscript.js"],
         "run_at": "document_start"
-    }]
+    }],
+    "web_accessible_resources": ["scripts/injected.js"]
 }
