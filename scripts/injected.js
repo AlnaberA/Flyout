@@ -12,6 +12,8 @@ window.onload = function() {
         console.log('Element with class name: ' + '(' + selector + ')' + ' not found.');
     }else{
         console.log('Element with class name: ' + '(' + selector + ')'+ ' found.');
+        console.log(element);
+        //TODO: Consider all elements on the page, there could be other extension-frame-wrappers on the page that are not being removed.
         element.parentElement.removeChild(element);
     }
  }
