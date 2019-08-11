@@ -21,17 +21,3 @@ window.onload = function() {
 function deleteElement(element){
     element.remove();
 }
-
-// function waitForElementToDisplay(selector, time) {
-//     console.log(document.querySelector(selector));
-//     if(document.querySelector(selector)!=null) {
-//         alert("Element found exiting.")
-//         return;
-//     }
-//     else {
-//         setTimeout(function() {
-//             console.log('Cannot find.');
-//             waitForElementToDisplay(selector, time);
-//         }, time);
-//     }
-// }
